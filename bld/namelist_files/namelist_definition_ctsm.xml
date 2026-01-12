@@ -991,6 +991,12 @@ Method for distributing pfts across hillslope columns
 Method for distributing soil thickness across hillslope columns
 </entry>
 
+<entry id="spillheight" type="real" category="physics"
+        group="hillslope_properties_inparm">
+Height threshold (m) for water to accumulate before draining to stream.
+Subtracts from hillslope_elevation to create a bank effect.
+</entry>
+
 <entry id="use_hydrstress" type="logical" category="physics"
         group="clm_inparm" valid_values="" value=".false.">
 Toggle to turn on the plant hydraulic stress model
