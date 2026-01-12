@@ -167,7 +167,7 @@ if [ "$existing_bld" = "No" ]; then
    else
       options="-Wno-dev -Wno-error=dev -Wno-deprecated -Wno-error=deprecated"
    fi
-   CC=mpicc FC=mpif90 cmake $options -DCMAKE_BUILD_TYPE=Debug $cwd/src
+   CC=mpicc FC=mpif90 cmake $options -DCMAKE_BUILD_TYPE=Debug -DCMAKE_Fortran_FLAGS=" -fallow-argument-mismatch -fallow-invalid-boz -ffree-line-length-none" $cwd/src
    if [ $? != 0 ]; then
      echo "Error doing cmake for $MACH $MPILIB $COMPILER"
      exit 1
