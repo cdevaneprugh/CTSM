@@ -657,7 +657,7 @@ class SinglePointCase(BaseCase):
                 "./xmlchange PTS_LON={}".format(self.plon.get_str(self.plon.lon_type())), nl_file
             )
             self.write_to_file("./xmlchange PTS_LAT={}".format(str(self.plat)), nl_file)
-            self.write_to_file("./xmlchange MPILIB=mpi-serial", nl_file)
+            self.write_to_file("./xmlchange MPILIB=openmpi", nl_file)
             if self.create_datm:
                 self.write_to_file(f"./xmlchange DATM_YR_ALIGN={datm_syr}", nl_file)
                 self.write_to_file(f"./xmlchange DATM_YR_START={datm_syr}", nl_file)
