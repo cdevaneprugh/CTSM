@@ -13,7 +13,7 @@ Tracking progress for comprehensive CTSM documentation effort.
 | 3 | src/ documentation | Complete |
 | 4 | Testing documentation | Complete |
 | 5 | Library research (mpi-serial/PIO) | Complete |
-| 6 | Verification & commit | In Progress |
+| 6 | Verification & commit | Complete |
 
 ---
 
@@ -54,7 +54,7 @@ Tracking progress for comprehensive CTSM documentation effort.
 - [x] Cross-reference all CLAUDE.md files
 - [x] Verify file paths and examples
 - [x] Update hpg-esm-tools documentation index
-- [ ] Commit and push to fork
+- [x] Commit and push to fork
 
 ---
 
