@@ -84,7 +84,7 @@ Our fork changes default input paths in `python/ctsm/site_and_regional/default_d
 ```bash
 # Ensure conda environment
 module load conda
-conda activate esm-tools  # or ctsm_pylib
+conda activate ctsm  # or ctsm_pylib
 
 # Run from this directory
 cd tools/site_and_regional

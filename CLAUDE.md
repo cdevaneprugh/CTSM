@@ -231,7 +231,7 @@ Key submodules:
 | hpg-esm-tools | `/blue/gerber/cdevaneprugh/hpg-esm-tools/` | Analysis scripts, utilities |
 | CTSM Development Guide | `hpg-esm-tools/docs/CTSM_DEVELOPMENT_GUIDE.md` | Development quick reference |
 | Research Notes | `hpg-esm-tools/docs/CTSM_RESEARCH_NOTES.md` | Detailed findings |
-| Fork Audit | `hpg-esm-tools/docs/FORK_AUDIT_2025-01-11.md` | Local modifications |
+| Fork Audit | `hpg-esm-tools/docs/archive/FORK_AUDIT_2025-01-11.md` | Local modifications |
 | Official CTSM Wiki | https://github.com/ESCOMP/ctsm/wiki | Upstream documentation |
 | CTSM Tech Note | https://escomp.github.io/ctsm-docs/ | Technical reference |
 
@@ -270,6 +270,5 @@ Gridcell (grc) → Land Unit (lun) → Column (col) → Patch (patch/PFT)
 ## Related Resources
 
 - **hpg-esm-tools**: `/blue/gerber/cdevaneprugh/hpg-esm-tools/` - User scripts and analysis tools
-- **~/.cime/**: Machine configuration files (config_machines.xml, etc.)
 - **Upstream**: https://github.com/ESCOMP/CTSM
 - **ccs_config fork**: https://github.com/cdevaneprugh/ccs_config_cesm (branch: uf-hipergator)

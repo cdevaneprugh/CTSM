@@ -247,7 +247,7 @@ make black     # Code formatting check
 ```bash
 # Activate conda environment
 module load conda
-conda activate esm-tools  # or ctsm_pylib
+conda activate ctsm  # or ctsm_pylib
 
 # Run tests
 cd python
